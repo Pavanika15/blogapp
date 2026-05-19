@@ -113,7 +113,7 @@ The frontend can use Vite environment variables for configurable values such as 
 Create a `.env` or `.env.local` file in the `Frontend/` directory and add:
 
 ```env
-VITE_API_BASE_URL=http://localhost:4000
+VITE_API_BASE_URL=https://blogapp-backend-v72w.onrender.com
 ```
 
 Then update Axios requests in the code to use `import.meta.env.VITE_API_BASE_URL` instead of hardcoded URLs.
