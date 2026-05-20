@@ -25,7 +25,7 @@ The frontend is the client-side interface for a blog application. It is responsi
 
 The frontend is configured for Vercel deployment. The current production deployment is:
 
-https://blogappproject-hazel.vercel.app
+https://blogapp-seven.vercel.app/
 
 The file `vercel.json` is used to rewrite all routes to `index.html`, which enables client-side routing on refresh.
 
